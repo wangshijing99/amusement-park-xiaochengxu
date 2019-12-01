@@ -1,0 +1,89 @@
+<!--index.wxml-->
+<!-- view标签相当于网页中的div标签 属于块级元素 -->
+<!-- 轮播图 -->
+<swiper indicator-dots indicator-color="rgba(255,255,255,.6)" indicator-active-color="rgba(255,255,255,1)" autoplay circular>
+  <swiper-item>
+    <image src="https://wangshijing99.github.io/static---/uploads/slide_1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://wangshijing99.github.io/static---/uploads/slide_2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://wangshijing99.github.io/static---/uploads/slide_3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://wangshijing99.github.io/static---/uploads/slide_4.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://wangshijing99.github.io/static---/uploads/slide_5.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="title">乐园活动</view>
+<view class="item">
+  <!-- 相当于网页中的a标签 可实现页面跳转 -->
+  <navigator url="">
+    <!-- 封面图 -->
+    <image src="https://wangshijing99.github.io/static---/uploads/item_1.png"></image>
+  </navigator>
+  <view class="info">
+    <!-- 活动信息 -->
+    <view class="instruction">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <view class="status">免费</view>
+    <view class="extra">
+      <!-- text相当于网页中的span标签 属于行内元素 -->
+      <text  class="icon-flag" style="margin-right:20rpx">200人已报名</text>
+      <text  class="icon-clock">本周六开始</text>
+    </view>
+  </view>
+</view>
+<view class="item">
+  <!-- 相当于网页中的a标签 可实现页面跳转 -->
+  <navigator url="">
+    <!-- 封面图 -->
+    <image src="https://wangshijing99.github.io/static---/uploads/item_2.png"></image>
+  </navigator>
+  <view class="info">
+    <!-- 活动信息 -->
+    <view class="instruction">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <view class="status">免费</view>
+    <view class="extra">
+      <!-- text相当于网页中的span标签 属于行内元素 -->
+      <text  class="icon-flag" style="margin-right:20rpx">200人已报名</text>
+      <text  class="icon-clock">本周六开始</text>
+    </view>
+  </view>
+</view>
+<view class="item">
+  <!-- 相当于网页中的a标签 可实现页面跳转 -->
+  <navigator url="">
+    <!-- 封面图 -->
+    <image src="https://wangshijing99.github.io/static---/uploads/item_3.png"></image>
+  </navigator>
+  <view class="info">
+    <!-- 活动信息 -->
+    <view class="instruction">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <view class="status">免费</view>
+    <view class="extra">
+      <!-- text相当于网页中的span标签 属于行内元素 -->
+      <text  class="icon-flag" style="margin-right:20rpx">200人已报名</text>
+      <text  class="icon-clock">本周六开始</text>
+    </view>
+  </view>
+</view>
+<view class="item">
+  <!-- 相当于网页中的a标签 可实现页面跳转 -->
+  <navigator url="">
+    <!-- 封面图 -->
+    <image src="https://wangshijing99.github.io/static---/uploads/item_4.png"></image>
+  </navigator>
+  <view class="info">
+    <!-- 活动信息 -->
+    <view class="instruction">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <view class="status">免费</view>
+    <view class="extra">
+      <!-- text相当于网页中的span标签 属于行内元素 -->
+      <text  class="icon-flag" style="margin-right:20rpx">200人已报名</text>
+      <text  class="icon-clock">本周六开始</text>
+    </view>
+  </view>
+</view>

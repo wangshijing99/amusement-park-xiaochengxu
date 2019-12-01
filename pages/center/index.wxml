@@ -1,0 +1,21 @@
+<!--pages/center/index.wxml-->
+<form>
+  <view class="item">
+    <label for="">姓名：</label>
+    <input placeholder="请填写您的真实姓名" placeholder-class="color"></input>
+  </view>
+  <view class="item">
+    <label for="">手机：</label>
+    <input placeholder="请填写您的手机号" placeholder-class="color"></input>
+  </view>
+  <view class="item">
+    <label for="">身份：</label>
+    <input placeholder="请选择您与宝宝的关系身份" placeholder-class="color"></input>
+  </view>
+  <view class="item">
+    <label for="">验证码：</label>
+    <input placeholder="六位数字验证码" placeholder-class="color"></input>
+    <button class="achieve">获取验证码</button>
+  </view>
+    <button class="bind">绑定并登录</button>
+</form>

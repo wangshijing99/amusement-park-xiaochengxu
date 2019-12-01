@@ -1,0 +1,48 @@
+/* pages/center/index.wxss */
+
+form {
+  display: block;
+  padding: 0 30rpx;
+}
+
+.item {
+  font-size: 34rpx;
+  height: 100rpx;
+  display: flex;
+  line-height: 100rpx;
+  border-bottom: 2rpx solid #f0f0f0;
+}
+
+.item label {
+  width: 160rpx;
+}
+
+.item input {
+  flex: 1;
+  text-align: right;
+  margin-top: 25rpx;
+}
+
+.item .color {
+  color: #c9c9c9;
+}
+
+.bind {
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: blod;
+  background-color: #feca49;
+  width: 640rpx;
+  margin-top: 40rpx;
+}
+
+.achieve {
+  width: 198rpx;
+  height: 72rpx;
+  background-color: #45b8ff;
+  font-size: 28rpx;
+  color: #fff;
+  margin-top:14rpx;
+  margin-left:20rpx;
+  border-radius:30rpx;
+}
